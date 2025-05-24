@@ -26,8 +26,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="relative antialiased text-white font-[Quicksand] bg-[url(/hp-bg.jpg)] bg-no-repeat">
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+      <body className="relative antialiased text-white font-[Quicksand] bg-[url(/hp-bg.jpg)] bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
         <div className="relative z-10">{children}</div>
       </body>
     </html>
