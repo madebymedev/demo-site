@@ -6,7 +6,7 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   safelist: [
-    "bg-[url(/hp-bg.jpg)]"
+    "bg-[url(/gradient-bg.jpg)]"
   ],
   theme: {
     extend: {
