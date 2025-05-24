@@ -33,8 +33,9 @@ export default function RootLayout({ children }) {
         className="relative antialiased text-white font-[Quicksand] bg-no-repeat bg-center bg-black"
         style={{
           backgroundImage: "url('/gradient-bg.jpeg')",
-          backgroundSize: "100% auto", // retains aspect ratio
-          backgroundAttachment: "scroll",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
