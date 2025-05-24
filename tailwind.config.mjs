@@ -5,6 +5,9 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "bg-[url(/hp-bg.jpg)]"
+  ],
   theme: {
     extend: {
       colors: {
