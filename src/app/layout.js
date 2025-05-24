@@ -29,8 +29,7 @@ export default function RootLayout({ children }) {
       <body
         className={`relative ${geistSans.variable} ${geistMono.variable} ${quicksand.variable} antialiased text-white`}
       >
-        <div className="fixed inset-0 -z-10 h-screen">
-          <div className="w-full h-full bg-[url('/hp-bg.jpg')] bg-cover bg-top bg-no-repeat"></div>
+        <div className="fixed inset-0 -z-10 h-screen bg-[url('/hp-bg.jpg')] bg-cover bg-top bg-no-repeat">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
         </div>
         <div className="relative z-10">{children}</div>
