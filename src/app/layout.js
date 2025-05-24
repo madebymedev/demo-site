@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head >
         <script defer data-domain="demo-site-zeta-silk.vercel.app" src="https://plausible.io/js/script.js"></script>
-      </head>  
-      <body className="relative antialiased text-white font-[Quicksand] bg-[url(/gradient-bg.jpeg)] bg-cover bg-center bg-no-repeat bg-white/100">
+      </head>
+      <body className="relative antialiased text-white font-[Quicksand] bg-[url(/gradient-bg.jpeg)] bg-no-repeat bg-center bg-cover sm:bg-[length:100%_100%]">
         <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
         <div className="relative z-10">{children}</div>
       </body>
